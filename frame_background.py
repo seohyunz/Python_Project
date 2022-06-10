@@ -16,7 +16,7 @@ image_path = os.path.join(current_path,"image")
 background = pygame.image.load(os.path.join(image_path,"background.png"))
 
 #스테이지
-stage = pygame.image.load(os.path.join(image_path,"stage.png"))
+stage = pygame.image.load(os.path.join(image_path,"stage2.png"))
 stage_size = stage.get_rect().size
 stage_height = stage_size[1] #스테이지의 높이 위에 캐릭터를 두기 위해 사용
 
